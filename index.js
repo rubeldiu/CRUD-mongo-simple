@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const MongoClient = require("mongodb").MongoClient;
 const ObjectId = require("mongodb").ObjectId;
 const uri =
-  "mongodb+srv://dbRubel:saPfdDreAfmIKNUI@cluster0.ulzfk.mongodb.net/organicdb?retryWrites=true&w=majority";
+  "mongodb+srv://dbRubel:saPfYourPasswordI@cluster0.ulzfk.mongodb.net/organicdb?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
